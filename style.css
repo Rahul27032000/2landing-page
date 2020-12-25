@@ -1,0 +1,183 @@
+*{
+    margin-left: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   
+}
+
+.container{
+    position: relative;
+    
+
+}
+
+
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    
+    padding: 20px;
+    text-decoration: none;
+    
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    
+  }
+
+.subscription-a{
+    position: absolute;
+    margin: 20px 20% 50px 20%;
+    width: auto;
+    
+    
+}
+
+.top{
+    background-color: mistyrose;
+    
+   
+}
+.header h1{
+    
+}
+
+.header{
+    padding-top: 30px;
+    text-align: center;
+    color: rgb(35, 119, 122);
+}
+
+.text{
+    padding: 10px;
+    padding-top: -10px;
+}
+
+.text h3{
+    font-size: 19px;
+    font-style: oblique;
+    font-family: cursive;
+    padding-left: 100px;
+    margin-left: 20px;
+    color: rgb(128, 148, 55);
+    
+}
+
+.text p{
+    margin-bottom: 50px;
+    font-family: sans-serif;
+    text-align: justify;
+    padding: 20px;
+    color: mediumaquamarine;
+}
+.bottom{
+    overflow: hidden;
+    
+}
+
+.left{
+    width: 50%;
+    float: left;
+    background-color: rgb(185, 168, 142);
+
+    height: 320px;
+    padding: 50px;
+
+}
+
+.left h3{
+    font-size: 20px;
+    color: maroon;
+
+}
+
+.left h4{
+
+    font-size: 20px;
+    color: lightyellow;
+}
+
+.left  p{
+    font-size: 23px;
+    color: rgb(46, 18, 18);
+}
+
+.right{
+    width: 50%;
+    float: left;
+    background-color: rgb(156, 137, 100);
+    height: 320px;
+    padding: 5px;
+   
+}
+
+.right h3{
+    background-color: inherit;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(99, 18, 18);
+}
+
+.right ul{
+    
+    padding: 20px;
+    
+    margin: 30px;
+    width: 400px;
+    
+    
+
+}
+
+.right ul li{
+    list-style-type: none;
+    font-weight: 10px;
+    font-size: 20px;
+    text-align: start;
+    color: rgb(33, 56, 10);
+    
+    
+
+}
+/* @media screen and (max-width: 900px) {
+    .right ul{
+        background-color: teal;
+        padding: 20px;
+        width: 200px;
+        
+    
+    }
+  }
+} */
+
+@media screen and (max-width: 850px) {
+    .left, .right {
+      width: 100%;
+      height: 320px;
+      
+    }
+   
+}
+
+button{
+    background-color: rgb(177, 190, 57);
+    padding: 12px;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+   margin-top: 3px; 
+   font-size: 20px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
